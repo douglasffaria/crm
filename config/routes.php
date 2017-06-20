@@ -59,7 +59,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     /**
      * Connect catchall routes for all controllers.
      *
-     * Using the argument `DashedRoute`, the `fallbacks` method is a shortcut for
+     * Using the arguments `DashedRoute`, the `fallbacks` method is a shortcut for 2
      *    `$routes->connect('/:controller', ['action' => 'index'], ['routeClass' => 'DashedRoute']);`
      *    `$routes->connect('/:controller/:action/*', [], ['routeClass' => 'DashedRoute']);`
      *
